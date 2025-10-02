@@ -5,9 +5,9 @@ import dotenv from "dotenv";
 import path from "path";
 import { fileURLToPath } from "url";
 
-import authRoutes from "./routes/auth.js";
-import portfolioRoutes from "./routes/portfolio.js";
-import videoRoutes from "./routes/video.js";
+import authRoutes from "./src/routes/auth.js";
+import portfolioRoutes from "./src/routes/portfolio.js";
+import videoRoutes from "./src/routes/video.js";
 import fs from 'fs';
 
 const __filename = fileURLToPath(import.meta.url);
